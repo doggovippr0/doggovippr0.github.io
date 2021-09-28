@@ -16,7 +16,6 @@
 [hidden] {
   display: none !important;
 }
-
 /* Import fonts */
 @font-face {
   font-family: San Francisco;
@@ -72,10 +71,10 @@
 }
 
 .button1 {
-  background-color: #ADD1DC;
+  background-color: #FF8E8E;
 } /* Green */
 .button2 {
-  background-color: #ADD1DC;
+  background-color: #FF8E8E;
 } /* Blue */
 /* Navigation grid */
 .footer {
@@ -219,7 +218,7 @@ h2 {
 }
 .inline-photo {
   border-bottom: 4em solid #fff;
-  border-radius: 0.25em;
+  border-radius: 0.5em;
   box-shadow: 1.5em 1.5em 2.5em 0.75em rgba(0, 0, 0, 0.2);
   margin: 2em auto;
   opacity: 0;
@@ -236,3 +235,22 @@ h2 {
 * {
   box-sizing: border-box;
 }
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 15px;
+}
+
+.skills {
+  border-radius: 15px;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.python {width: 70%; background-color: #808080;}
+.bi {width: 90%; background-color: #808080;}
+.ml {width: 50%; background-color: #808080;}
+.cv {width: 30%; background-color: #808080;}
+.s {width: 15%; background-color: #808080;}
