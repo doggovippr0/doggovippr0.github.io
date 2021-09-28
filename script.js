@@ -1,4 +1,4 @@
-// Detect request animation frame
+// Tu dong nhan dien frame
 var scroll =
   window.requestAnimationFrame ||
   // IE Fallback
@@ -19,12 +19,11 @@ function loop() {
   scroll(loop);
 }
 
-// Call the loop for the first time
 loop();
 
-// Helper function from: http://stackoverflow.com/a/7557433/274826
+// Han viewport
 function isElementInViewport(el) {
-  // special bonus for those using jQuery
+  // crazy stuff
   if (typeof jQuery === "function" && el instanceof jQuery) {
     el = el[0];
   }
