@@ -222,7 +222,7 @@ h2 {
   box-shadow: 1.5em 1.5em 2.5em 0.75em rgba(0, 0, 0, 0.2);
   margin: 2em auto;
   opacity: 0;
-  transform: translateY(4em);
+  transform: translateY(4em) rotateZ(-0deg);
   transition: transform 4s 0.25s,
     opacity 0.3s 0.25s ease-out;
   will-change: transform, opacity;
