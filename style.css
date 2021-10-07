@@ -230,7 +230,7 @@ h2 {
 
 .inline-photo.is-visible {
   opacity: 1;
-  transform: rotateZ(-2deg);
+  transform: rotateZ(-0deg);
 }
 * {
   box-sizing: border-box;
